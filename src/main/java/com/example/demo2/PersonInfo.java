@@ -33,4 +33,13 @@ public class PersonInfo {
     public String getPhrase() {
         return phrase;
     }
+
+    @Override
+    public String toString() {
+        return "PersonInfo{" +
+                "nome='" + name + '\'' +
+                ", provincia='" + province + '\'' +
+                ", saluto='" + phrase + '\'' +
+                '}';
+    }
 }

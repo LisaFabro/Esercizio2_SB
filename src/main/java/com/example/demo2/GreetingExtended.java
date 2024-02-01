@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.*;
 
 public class GreetingExtended {
 @GetMapping(path = "/ciao/Lombardia")
-    public PersonInfo ciao(@RequestParam String province,
-                            @RequestParam String name){
+    public PersonInfo ciao(@RequestParam String name){
+    String province = "Lombardia";
     return new PersonInfo(name, province);
     }
 }

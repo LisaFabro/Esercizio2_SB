@@ -19,4 +19,5 @@ public class GreetingExtended {
     String province = "Lombardia";
     return new PersonInfo(name, province);
     }
+
 }
